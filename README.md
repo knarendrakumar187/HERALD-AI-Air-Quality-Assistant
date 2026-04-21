@@ -20,7 +20,6 @@
 - [How It Works](#-how-it-works)
 - [Project Structure](#-project-structure)
 - [Quick Start Guide](#-quick-start-guide)
-- [Google Colab Setup](#-google-colab-setup)
 - [System Architecture](#-system-architecture)
 - [Memory Management](#-memory-management)
 - [Research & Evaluation](#-research--evaluation)
