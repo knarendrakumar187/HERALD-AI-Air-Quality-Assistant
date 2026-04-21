@@ -41,6 +41,15 @@ Think of it as a smart, contextual air quality assistant rather than just a dash
 
 ---
 
+## 🔬 Academic Contributions & Novelty
+Unlike standard API wrappers or basic RAG chatbots, HERALD implements a **Neuro-Symbolic Architecture** designed for edge deployment constraints (CPU-native inference). 
+Key research contributions include:
+- **Contextual Episodic Memory:** Utilizes FAISS to semantically encode multi-dimensional weather and pollution events, allowing the system to recognize historical environmental patterns (e.g., repeating temperature inversions).
+- **Multi-Agent Verification Loop:** A multi-node agent topology replacing monolithic LLM chains. It utilizes a `Verification Agent` loop to strictly mandate that generated advisory text adheres to quantitative WHO and CPCB boundaries, mitigating hallucination.
+- **Deterministic Risk Synthesis:** Isolates the mathematical/temporal forecasting logic (like Isolation Forests or ARIMA variants) from the LLM, restricting the language model strictly to interpretation rather than calculation.
+
+---
+
 ## 🚀 Quick Demo
 
 ```text
