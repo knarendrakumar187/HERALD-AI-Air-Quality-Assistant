@@ -108,42 +108,6 @@ herald/
 └── README.md                # Documentation
 ```
 
----
-
-## 🛠️ Quick Start Guide
-
-### Step 1 — Install Ollama
-HERALD runs 100% locally. To serve the LLMs, install [Ollama](https://ollama.com).
-
-```bash
-# Linux / Mac:
-curl -fsSL https://ollama.com/install.sh | sh
-
-# Windows: Download from https://ollama.com/download
-```
-
-### Step 2 — Pull Core Models (Free & One-time)
-```bash
-ollama pull mistral:7b       # Main reasoning agent (~4 GB)
-ollama pull llama3.2:3b      # Fast classification agent (~2 GB)
-```
-
-### Step 3 — Install Python Dependencies
-```bash
-pip install langgraph langchain-ollama langchain faiss-cpu sentence-transformers gradio plotly pulp openaq requests python-dotenv
-```
-
-### Step 4 — Run HERALD
-```bash
-# Terminal 1: Background local inference
-ollama serve
-
-# Terminal 2: Run the Gradio frontend
-python ui/gradio_app.py
-```
-*Visit `http://localhost:7860` in your web browser!*
-
----
 
 ## 🌐 Free APIs Used (No API Keys required)
 
