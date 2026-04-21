@@ -176,12 +176,3 @@ python evaluation/run_ablation.py --benchmark data/benchmark/
 3. **C:** Standard System (Multi-Agent without compound risk formula)
 4. **D:** Monolithic (Single LLM only, no agents)
 
-Key Differences: Existing Apps vs HERALD
-Feature Existing Apps HERALD
-AQI Display Yes Yes
-Pollution Forecast Yes Yes
-Explanation of Pollution No Yes
-Personalized Advice No Yes
-Outdoor Time Suggestion No Yes
-AI-Based System Limited Advanced (Multi-Agent AI)
-Memory & Pattern Detection No Yes
