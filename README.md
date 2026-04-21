@@ -19,7 +19,6 @@
 - [Quick Demo](#-quick-demo)
 - [How It Works](#-how-it-works)
 - [Project Structure](#-project-structure)
-- [Quick Start Guide](#-quick-start-guide)
 - [System Architecture](#-system-architecture)
 - [Memory Management](#-memory-management)
 - [Research & Evaluation](#-research--evaluation)
