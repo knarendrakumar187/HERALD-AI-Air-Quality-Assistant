@@ -175,34 +175,3 @@ python evaluation/run_ablation.py --benchmark data/benchmark/
 2. **B:** Amnesic System (Multi-Agent without memory)
 3. **C:** Standard System (Multi-Agent without compound risk formula)
 4. **D:** Monolithic (Single LLM only, no agents)
-
----
-
-## 💻 Requirements
-
-| Requirement | Minimum Spec | Recommended |
-|---|---|---|
-| **Memory (RAM)** | 8 GB | 12 GB+ |
-| **Storage** | 10 GB (Models) | 15 GB |
-| **Python** | > 3.10 | 3.11 |
-| **GPU/TPU** | None (CPU Native) | Apple M-series / RTX 3050+ |
-
----
-
-## 🤝 Contributing
-
-We welcome pull requests and enhancements!
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingAgent`)
-3. Commit your Changes (`git commit -m 'Add some AmazingAgent'`)
-4. Push to the Branch (`git push origin feature/AmazingAgent`)
-5. Open a Pull Request
-
----
-
-## 🎓 Built With Purpose
-
-Built as a B.Tech final-year research project using entirely free, open-source AI technologies. <br>
-**No OpenAI. No Paid Subscriptions. No Cloud Vendor Lock-in.**
-
-Distributed under the MIT License. See `LICENSE` for more information.
