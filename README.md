@@ -118,7 +118,7 @@ herald/
 
 ---
 
-## 🏗️ System Architecture (LangGraph Flow)
+## 🏗️ System Architecture
 
 ```mermaid
 graph TD
